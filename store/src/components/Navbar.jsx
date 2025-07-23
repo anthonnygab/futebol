@@ -1,3 +1,4 @@
+import '../styles/Navbar.css'
 import logoFutebol from '../assets/logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser, faShoppingCart, faShirt } from '@fortawesome/free-solid-svg-icons'
