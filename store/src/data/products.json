@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "team": "Corinthians",
+    "name": "Camisa do Corinthians All Black(jogador)",
+    "price": 325.68,
+    "image": "../assets/shirts/all-black-jogador.jpg"
+  },
+
+  {
+    "id": 2,
+    "team": "Corinthians",
+    "name": "Camisa do Corinthians All Black(torcedor)", 
+    "price": 149.90,
+    "image": "../../public/assets/shirts/all-black-torcedor.jpg"
+  },
+
+  {
+    "id": 3,
+    "team": "Corinthians",
+    "name": "Camisa do Corinthians - Camisa 1(2024)",
+    "price": 340.70,
+    "image": "../../public/assets/shirts/black-white.jpg"
+  },
+
+  {
+    "id": 4,
+    "team": "Corinthians",
+    "name": "Camisa do Corinthians - Preto e Branco(2015)",
+    "price": 150.20,
+    "image": "../../public/assets/shirts/camisa preta e branco 2015.jpg"
+  },
+
+  {
+     "id": 5,
+     "team": "Corinthians",
+     "name": "Camisa do Corinthians - Amarela",
+     "price": 220.00,
+     "image": "../../public/assets/shirts/camisa-amarela.webp"
+  },
+
+  {
+    "id": 6,
+    "team": "Corinthians",
+    "name": "Camisa do Corinthians - Listrada(2024)",
+    "price": 310.80,
+    "image": "../../public/assets/shirts/camisa-listrada.jpeg" 
+  },
+
+  {
+    "id": 7,
+    "team":"Corinthians",
+    "name": "Camisa do Corinthians - Mundial 2012",
+    "price": 199.90,
+    "image": "../../public/assets/shirts/camisa-mundial.webp"
+  }
+]
