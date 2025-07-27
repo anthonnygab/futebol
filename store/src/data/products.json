@@ -53,5 +53,37 @@
     "name": "Camisa do Corinthians - Mundial 2012",
     "price": 199.90,
     "image": "../../public/assets/shirts/camisa-mundial.webp"
+  },
+
+  {
+    "id": 8,
+    "team": "Corinthians",
+    "name": "Camisa do Corinthians - Vermelha",
+    "price": 140.60,
+    "image": "../../public/assets/shirts/camisa-vermelha.jpg"
+  },
+
+  {
+    "id": 9,
+    "team": "Corinthians",
+    "name": "Conjunto do Corinthians",
+    "price": 250.75,
+    "image": "../../public/assets/shirts/conjunto-cor.jpeg"
+  },
+
+  {
+    "id": 10,
+    "team": "Corinthians",
+    "name": "Camisa do Corinthians - Japão",
+    "price": 270.00,
+    "image": "../../public/assets/shirts/escrito-japan.jpg"
+  },
+
+  {
+    "id": 11,
+    "team": "Corinthians",
+    "name": "Camisa do Corinthians - Listrada 2015",
+    "price": 150.50,
+    "image": "../../public/shirts/listrada-2015.jpeg"
   }
 ]

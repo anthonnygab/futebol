@@ -46,3 +46,16 @@ input {
     display: block;
     text-align: center;
 }
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.product-image {
+    width: 195px;
+    display: block;
+    margin: 0 auto
+}

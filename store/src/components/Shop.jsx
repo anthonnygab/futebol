@@ -48,7 +48,9 @@ export default function Shop() {
           </div>
         ))
       ) : (
-        <p className="no-products">A escalação deu errado… nenhum produto disponível pra esse jogo.</p>
+        search.trim() === "" ? null : (
+          <p className="no-products">A escalação deu errado… nenhum produto disponível pra esse jogo.</p>
+        )
       )}
     </div>
   </div>
