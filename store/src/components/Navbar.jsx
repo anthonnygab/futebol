@@ -2,6 +2,7 @@ import '../styles/Navbar.css'
 import logoFutebol from '../../public/assets/logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser, faShoppingCart, faShirt } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom'
 
 export default function Navbar() {
     return (
@@ -9,19 +10,19 @@ export default function Navbar() {
             <img src={logoFutebol} alt="" className='logo' />
             <ul className='url'>
                 <li>
-                    <a href="/">
+                    <Link to="/user">
                         <FontAwesomeIcon icon={faUser} /> Usuario
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a href="/produtos">
+                    <Link to="/orders">
                          <FontAwesomeIcon icon={faShirt} /> Compras
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a href="">
+                    <Link to="/cart">
                          <FontAwesomeIcon icon={faShoppingCart} /> Carrinho  
-                    </a>    
+                    </Link>    
                 </li>
             </ul>
         </nav>
