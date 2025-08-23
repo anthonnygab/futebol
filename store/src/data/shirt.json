@@ -1,0 +1,37 @@
+[
+    {
+      "team": "Corinthians",
+      "badge": "../../public/badge/shield/brazil/corinthians.png",
+      "shirts": [
+        {
+           "id": 1,
+           "image": "../../public/assets/shirts/corinthians/all-black-jogador.jpg",
+            "name": "Camisa do Corinthians All Black(jogador)"
+        },
+
+        {
+           "id": 2,
+           "image": "../../public/assets/shirts/corinthians/camisa-amarela.webp",
+            "name": "Camisa do Corinthians All Black(torcedor)"
+        }
+      ]
+    },
+
+    {
+      "team": "Flamengo",
+      "badge": "../../public/badge/shield/brazil/flamengo.png",
+      "shirts": [
+         {
+           "id": 1,
+           "image": "../../public/assets/shirts/flamengo/camisa-do-flamengo-vermelho-branco.jpg",
+           "name": "Camisa do Flamengo - Vermelho e Branco " 
+         },
+
+         {
+           "id": 2,
+           "image": "../../public/assets/shirts/flamengo/flamendo-2024.avif",
+           "name": "Camisa do Flamengo - Bege"
+         }
+      ]
+    }
+]

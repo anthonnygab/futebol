@@ -1,0 +1,74 @@
+#formularioBack {
+    background-image: url("../../public/assets/login-picture.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;  
+    height: 100vh;  
+    position: relative;
+}
+
+#backButton {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    margin-left: 0.8rem;
+    color: #ffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.formulario {
+    background-color: #ffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    position: absolute;       
+    top: 50%;         
+    left: 50%;             
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+    text-align: center;
+}
+
+.formInput  {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+#goIn {
+    display: block;
+    margin: 0 auto;
+    background-color: #659455;
+    color: #ffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#goIn:hover {
+    background-color: #659455dc;
+}
+
+#noAccount {
+    margin-bottom: 5px;
+    color: red;
+}
+
+#createAccount {
+    background-color: transparent;
+    border: none;
+    margin-left: 5px;
+    color: blue;
+    cursor: pointer;
+}
+
+#createAccount:hover {
+    border-bottom: 1pt solid blue;
+}

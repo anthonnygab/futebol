@@ -1,7 +1,7 @@
 import React from 'react';
 import { Carousel } from 'antd';
-import europa from '../../public/assets/picture/europa-shirt.png'
-import brazil from '../../public/assets/picture/brazil-shirt.png'
+import europa from '../../../public/assets/picture/europa-shirt.png'
+import brazil from '../../../public/assets/picture/brazil-shirt.png'
 
 
 const App = () => (

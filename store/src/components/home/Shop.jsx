@@ -2,7 +2,7 @@ import { useState } from "react";
 import productsData from '../../data/products.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
-import '../../src/styles/Shop.css'
+import '../../styles/Shop.css'
 
 export default function Shop() {
   const [search, setSearch] = useState("");

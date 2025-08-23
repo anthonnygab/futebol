@@ -1,0 +1,76 @@
+#signUpForm {
+    background-image: url("../../public/assets/login-picture.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;  
+    height: 100vh;  
+    position: relative;
+}
+
+#signUpBackBtn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    margin-left: 0.8rem;
+    color: #ffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+
+}
+.form {
+    background-color: #ffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    position: absolute;       
+    top: 50%;         
+    left: 50%;             
+    transform: translate(-50%, -50%);
+}
+
+.formInput  {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+#createBtn {
+    display: block;
+    margin: 0 auto;
+    background-color: #659455;
+    color: #ffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#createBtn:hover {
+    background-color: #659455dc;
+}
+
+#yeahAccount {
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+    color: red;
+}
+
+#backAccount {
+    background-color: transparent;
+    border: none;
+    margin-left: 5px;
+    color: blue;
+    cursor: pointer;
+}
+
+#backAccount:hover {
+    border-bottom: 1pt solid blue;
+}
